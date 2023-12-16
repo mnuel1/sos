@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "317913896085",
+    "project_id": "sos-fbc29",
+    "storage_bucket": "sos-fbc29.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:317913896085:android:611b21b8ff85acbb85b79c",
+        "android_client_info": {
+          "package_name": "com.example.samplelangs"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3RtpfOLAZDw61XnfA2R8Y0ZXF4gTIFSY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

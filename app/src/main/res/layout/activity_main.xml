@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgcontinue"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="bottom">
+
+        <Button
+            android:id="@+id/CONTINUE"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#70427D"
+            android:fontFamily="@font/poppins_medium"
+            android:text="CONTINUE"
+            android:textColor="#E6E5E1"
+            android:textSize="25dp"
+            tools:ignore="VisualLintButtonSize"
+            tools:layout_editor_absoluteX="15dp"
+            tools:layout_editor_absoluteY="15dp" />
+    </LinearLayout>
+</LinearLayout>

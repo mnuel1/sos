@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/registration"
+    android:padding="15dp"
+    android:gravity="center"
+    tools:context=".userregister">
+
+    <androidx.cardview.widget.CardView
+        android:layout_margin="40dp"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:cardBackgroundColor="@android:color/transparent"
+        android:background="#fff">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+
+
+
+            <EditText
+                android:id="@+id/your_name"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:drawablePadding="10dp"
+                android:padding="8dp"
+                android:layout_marginBottom="15dp"
+                android:drawableStart="@drawable/person"
+                android:hint="Your Name"
+                android:background="@drawable/custom_edittext"
+                android:drawableRight="@drawable/done_icon"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/user_username"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:drawablePadding="10dp"
+                android:padding="8dp"
+                android:layout_marginBottom="15dp"
+                android:drawableStart="@drawable/person"
+                android:hint="Username"
+                android:background="@drawable/custom_edittext"
+                android:drawableRight="@drawable/done_icon"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/user_password"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:drawablePadding="10dp"
+                android:padding="8dp"
+                android:layout_marginBottom="15dp"
+                android:drawableStart="@drawable/person"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:background="@drawable/custom_edittext"
+                android:drawableRight="@drawable/done_icon"
+                />
+
+            <EditText
+                android:id="@+id/user_reenterpass"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:drawablePadding="10dp"
+                android:padding="8dp"
+                android:layout_marginBottom="15dp"
+                android:drawableStart="@drawable/person"
+                android:hint="Re-enter Password"
+                android:inputType="textPassword"
+                android:background="@drawable/custom_edittext"
+                android:drawableRight="@drawable/done_icon"/>
+
+            <EditText
+                android:id="@+id/user_address"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:drawablePadding="10dp"
+                android:padding="8dp"
+                android:layout_marginBottom="15dp"
+                android:drawableStart="@drawable/person"
+                android:hint="Adresss"
+                android:background="@drawable/custom_edittext"
+                android:drawableRight="@drawable/done_icon"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/user_mobileno"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:drawablePadding="10dp"
+                android:padding="8dp"
+                android:layout_marginBottom="15dp"
+                android:drawableStart="@drawable/person"
+                android:hint="Mobile No."
+                android:inputType="textPassword"
+                android:background="@drawable/custom_edittext"
+                android:drawableRight="@drawable/done_icon"/>
+
+
+            <Button
+                android:id="@+id/user_registerbtn"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:fontFamily="@font/poppins_medium"
+                android:text="REGISTER"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#70427D"
+                tools:ignore="VisualLintButtonSize" />
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/welcome"
+    android:gravity="center"
+    tools:context=".mechoruser">
+
+
+    <Button
+        android:id="@+id/MECHANIC"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="250dp"
+        android:backgroundTint="#70427D"
+        android:layout_gravity="center"
+        android:fontFamily="@font/poppins_medium"
+        android:text="MECHANIC"
+        android:textColor="#E6E5E1"
+        android:textSize="25dp"
+        tools:ignore="VisualLintButtonSize" />
+
+    <Button
+        android:id="@+id/USER"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#70427D"
+        android:layout_gravity="center"
+        android:fontFamily="@font/poppins_medium"
+        android:text="USER"
+        android:textColor="#E6E5E1"
+        android:textSize="25dp"
+        tools:ignore="VisualLintButtonSize" />
+
+
+</LinearLayout>

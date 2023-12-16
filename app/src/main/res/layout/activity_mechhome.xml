@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mechanichome"
+    android:padding="15dp"
+    android:gravity="center"
+    tools:context=".mechhome">
+
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+    android:orientation="vertical" >
+
+
+        <Button
+        android:id="@+id/addservice"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#70427D"
+        android:layout_gravity="center"
+        android:fontFamily="@font/poppins_medium"
+        android:text="ADD SERVICE"
+        android:textColor="#E6E5E1"
+        android:textSize="20dp"
+        tools:ignore="VisualLintButtonSize" />
+
+    <Button
+        android:id="@+id/viewfeedback"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#70427D"
+        android:layout_gravity="center"
+        android:fontFamily="@font/poppins_medium"
+        android:text="VIEW FEEDBACK"
+        android:textColor="#E6E5E1"
+        android:textSize="20dp"
+        tools:ignore="VisualLintButtonSize" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="21dp" />
+
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#70427D"
+            android:text="LOG OUT"
+            android:textColor="#FFFFFF" />
+
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/registration"
+    android:padding="15dp"
+    android:gravity="center"
+    tools:context=".mechregister">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="320dp"
+        android:layout_height="666dp"
+        android:layout_gravity="center"
+        android:layout_margin="40dp"
+        android:background="#fff"
+        app:cardBackgroundColor="@android:color/transparent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <EditText
+                android:id="@+id/Owner_Name"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/custom_edittext"
+                android:drawableStart="@drawable/person"
+                android:drawableRight="@drawable/done_icon"
+                android:drawablePadding="10dp"
+                android:hint="Owner Name"
+                android:inputType="text"
+                android:padding="8dp"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/Garage_Name"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/custom_edittext"
+                android:drawableStart="@drawable/person"
+                android:drawableRight="@drawable/done_icon"
+                android:drawablePadding="10dp"
+                android:hint="Garage Name"
+                android:inputType="text"
+                android:padding="8dp"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/Mech_username"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/custom_edittext"
+                android:drawableStart="@drawable/person"
+                android:drawableRight="@drawable/done_icon"
+                android:drawablePadding="10dp"
+                android:hint="Username"
+                android:inputType="text"
+                android:padding="8dp"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/Mech_pass"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/custom_edittext"
+                android:drawableStart="@drawable/person"
+                android:drawableRight="@drawable/done_icon"
+                android:drawablePadding="10dp"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:padding="8dp"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/Mech_reenterpass"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/custom_edittext"
+                android:drawableStart="@drawable/person"
+                android:drawableRight="@drawable/done_icon"
+                android:drawablePadding="10dp"
+                android:hint="Re-enter Password"
+                android:inputType="textPassword"
+                android:padding="8dp"
+                android:textColor="#000000" />
+            android:drawableRight="@drawable/done_icon"/>
+
+            <EditText
+                android:id="@+id/Mech_address"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/custom_edittext"
+                android:drawableStart="@drawable/person"
+                android:drawableRight="@drawable/done_icon"
+                android:drawablePadding="10dp"
+                android:hint="Adresss"
+                android:inputType="text"
+                android:padding="8dp"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/Mech_mobile"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/custom_edittext"
+                android:drawableStart="@drawable/person"
+                android:drawableRight="@drawable/done_icon"
+                android:drawablePadding="10dp"
+                android:hint="Mobile No."
+                android:inputType="textPassword"
+                android:padding="8dp"
+                android:textColor="#000000" />
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Leave uncheck if you are serving both vehicle" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/car"
+                    android:layout_width="139dp"
+                    android:layout_height="wrap_content"
+                    android:tag="car"
+                    android:text="Car" />
+
+                <RadioButton
+                    android:id="@+id/motor"
+                    android:layout_width="165dp"
+                    android:layout_height="wrap_content"
+                    android:tag="motor"
+                    android:text="Motorcycle" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/mech_registerbtn"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#70427D"
+                android:fontFamily="@font/poppins_medium"
+                android:tag="all"
+                android:text="REGISTER"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                tools:ignore="VisualLintButtonSize" />
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
